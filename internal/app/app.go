@@ -11,7 +11,6 @@ import (
 type Application struct {
 	router *router.Router
 	log    log.Logger
-	IfUser bool
 }
 
 func NewApplication() *Application {
@@ -20,8 +19,8 @@ func NewApplication() *Application {
 		log:    log.NewLogger(ecs.Log("application")),
 	}
 
-	// Add routes here.
-	a.router.AddRoute(tempindex.Path, a.apply(tempindex.ApplyView))
+	// Add routes here. Just use the Path const you defined in your components.
+	a.router.AddRoute(tempindex.Path, a.apply(tempindex.Render))
 
 	return a
 }

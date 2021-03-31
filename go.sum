@@ -8,6 +8,8 @@ github.com/golangee/gotrino v0.0.0-20201217145214-0b84df22917b h1:KhQO3AEjM8JbTM
 github.com/golangee/gotrino v0.0.0-20201217145214-0b84df22917b/go.mod h1:HAGKSdbT34dtlJtLogt9scgzohq0QYUq9yeTG6WIAbo=
 github.com/golangee/gotrino-html v0.0.0-20201217152007-c12acb83fd4a h1:NX9AP4x2aYZgrrIS2drqyo0FU1/1uSQHR0XX79paXfA=
 github.com/golangee/gotrino-html v0.0.0-20201217152007-c12acb83fd4a/go.mod h1:mmWXWFsZNL1XlAfC4nOJzc6VRS+orIP+nDWYn1xLdUE=
+github.com/golangee/gotrino-tailwind v0.0.0-20201217163134-461d427eddda h1:0TTEAQEDcaoWd7JBBYSgJ5CiMzshmriFOBu54TPdBHY=
+github.com/golangee/gotrino-tailwind v0.0.0-20201217163134-461d427eddda/go.mod h1:6iu3NvZXcr5PLyBWCugjOzycJWN2/kPFMabw2Mtyc04=
 github.com/golangee/i18n v0.0.0-20201214100216-3e76e2ab7ca4 h1:vVEuW8HFUgnT68vkEEHrnyigpIO7LQX1YKtJ4mp78gY=
 github.com/golangee/i18n v0.0.0-20201214100216-3e76e2ab7ca4/go.mod h1:XB5yUChPoI1lvexK28rc5znxyPj6lJNN2wY7zl6uN68=
 github.com/golangee/log v0.0.0-20201214095632-610ba2dec6e5 h1:UYE411gQQIorUoIvp9BqFIBCxTwnFUa6XBjN0kjwiqY=

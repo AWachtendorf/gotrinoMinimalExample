@@ -4,35 +4,30 @@ import (
 	"github.com/golangee/dom/router"
 	"github.com/golangee/gotrino"
 	. "github.com/golangee/gotrino-html"
-	"github.com/golangee/property"
+	_ "github.com/golangee/gotrino-tailwind"
+	"rochus/frontend/internal/components"
 )
 
 const Path = "/"
 
-type Index struct {
-	gotrino.View
+// Render renders our content via query.
+func Render(query router.Query) gotrino.Renderable {
 
-	previewModel property.String
-}
+	// initialize some components.
+	Foo := components.NewComponent("I am a text.")
+	Bar := components.NewComponent("I'm also a text. Same Component but different content")
+	FooBar := components.NewAnotherComponent("This is a text in a component", "This also")
 
-func NewIndex() *Index {
-	i := &Index{}
-	i.previewModel.Attach(i.Invalidate)
-	return i
-}
-
-// Render here implements the minimalistic start page with the search bar
-func (i *Index) Render() gotrino.Node {
+	// returns our content.
 	return Div(
-		Class("flex items-center justify-center"),
+		// just put in some style.
+		Class("bg-gray-200"),
+		// this div now is the place for all our useless components
 		Div(
-			Text("Put some stuff in this body"),
-			),
+			Foo, // render the Foo component.
+			Bar, // render the Bar component.
+			FooBar, // Render the Foobar component, that also includes a Foo and a Bar Component.
+			Bar, // Render BAr component again, just to show reuseablility.
+		),
 	)
-}
-
-func ApplyView(query router.Query) gotrino.Renderable {
-	view := NewIndex()
-
-	return view
 }
