@@ -6,6 +6,8 @@ import (
 	"rochus/frontend/internal/app"
 )
 
+
+
 func main() {
 	log.SetDefault(simple.PrintColored)
 	a := app.NewApplication()

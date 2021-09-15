@@ -5,17 +5,20 @@ import (
 	. "github.com/golangee/gotrino"
 	"github.com/golangee/log"
 	"github.com/golangee/log/ecs"
+
 	"rochus/frontend/internal/pages/tempindex"
 )
 
 type Application struct {
 	router *router.Router
+
 	log    log.Logger
 }
 
 func NewApplication() *Application {
 	a := &Application{
 		router: router.NewRouter(),
+
 		log:    log.NewLogger(ecs.Log("application")),
 	}
 
@@ -33,7 +36,9 @@ func (a *Application) apply(f func(query router.Query) Renderable) func(query ro
 	}
 }
 
+
 func (a *Application) Run() {
+
 	a.router.Start()
 	select {}
 }

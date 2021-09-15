@@ -14,7 +14,6 @@ github.com/golangee/i18n v0.0.0-20201214100216-3e76e2ab7ca4 h1:vVEuW8HFUgnT68vkE
 github.com/golangee/i18n v0.0.0-20201214100216-3e76e2ab7ca4/go.mod h1:XB5yUChPoI1lvexK28rc5znxyPj6lJNN2wY7zl6uN68=
 github.com/golangee/log v0.0.0-20201214095632-610ba2dec6e5 h1:UYE411gQQIorUoIvp9BqFIBCxTwnFUa6XBjN0kjwiqY=
 github.com/golangee/log v0.0.0-20201214095632-610ba2dec6e5/go.mod h1:dUiMZFHdnlIsi6KOyAj+5jT+THo32aFtAoFMTRBlwuo=
-github.com/golangee/property v0.0.0-20201210101032-527a9915f02f h1:m7nyIJTCyM4ZTNtCSeP47h/+3lvF/zU8QyqsQB5E5tQ=
 github.com/golangee/property v0.0.0-20201210101032-527a9915f02f/go.mod h1:Z8QLRlSe+ZuhI67xD93EUIQ2nCEGBvX9LSuVcWhK+0U=
 github.com/golangee/property v0.0.0-20201217105724-d213780b9841 h1:vURSBXhcmor9l25vnVG4/ViR5xy5nySXQTMK3K7VtDk=
 github.com/golangee/property v0.0.0-20201217105724-d213780b9841/go.mod h1:Z8QLRlSe+ZuhI67xD93EUIQ2nCEGBvX9LSuVcWhK+0U=
